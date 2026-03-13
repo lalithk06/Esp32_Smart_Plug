@@ -10823,7 +10823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "Test Point:TestPoint_Pad_D2.5mm"
 			(at 152.4 41.91 0)
 			(effects
 				(font
@@ -12173,7 +12173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "Test Point:TestPoint_Pad_D2.5mm"
 			(at 173.99 115.57 0)
 			(effects
 				(font
@@ -13265,7 +13265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "Test Point:TestPoint_Pad_D2.5mm"
 			(at 62.23 148.59 0)
 			(effects
 				(font
@@ -13674,7 +13674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "Test Point:TestPoint_Pad_D2.5mm"
 			(at 62.23 175.26 0)
 			(effects
 				(font
@@ -16549,7 +16549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "Test Point:TestPoint_Pad_D2.5mm"
 			(at 280.67 41.91 0)
 			(effects
 				(font
@@ -16615,7 +16615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "Test Point:TestPoint_Pad_D2.5mm"
 			(at 168.91 115.57 0)
 			(effects
 				(font
@@ -17476,6 +17476,72 @@
 			(project "ZAP-010A"
 				(path "/7ad3d345-6af5-4afe-8c1e-e688582559a1"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3c3f10e-3118-4ed4-b541-fd3d6dd688bf")
+		(property "Reference" "TP7"
+			(at 145.542 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 145.542 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Test Point:TestPoint_Pad_D2.5mm"
+			(at 142.24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20071b08-0c3e-4fa9-bcde-dafc10e4ff0b")
+		)
+		(instances
+			(project "ZAP-010A"
+				(path "/7ad3d345-6af5-4afe-8c1e-e688582559a1"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
