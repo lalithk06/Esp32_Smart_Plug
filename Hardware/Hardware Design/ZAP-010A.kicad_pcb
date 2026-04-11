@@ -6753,7 +6753,7 @@
 		(at 104.049999 51.799999 90)
 		(tags "MLT-8530 ")
 		(property "Reference" "LS1"
-			(at -245.04 -9.28 90)
+			(at 5.649999 -0.099999 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2249e073-e092-436a-ac6e-47b971bbbb7b")
@@ -6991,6 +6991,17 @@
 			(uuid "1f65654f-4574-44df-a454-446c0f059b27")
 		)
 		(embedded_fonts no)
+		(model "D:/GitHUB/ESP32_Smart_Plug/Hardware/External-3D-Models/MLT-8530--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
