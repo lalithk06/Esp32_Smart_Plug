@@ -3,6 +3,8 @@
 
 This project presents the schematic and PCB design of a smart plug capable of switching AC loads while supporting modern embedded features such as USB connectivity, RTC support, and protection circuitry. Designed to explore real-world embedded hardware development and PCB design practices.
 
+> 📺 This project was developed by following a YouTube playlist by **Ampnics**, with additional learning and implementation.
+
 ---
 
 ## ⚙ Working Principle
@@ -39,13 +41,48 @@ To design and develop a reliable hardware platform for a smart plug that demonst
 ## 📷 Preview
 
 ### 🖼 Schematic Diagram  
-![Schematic](Hardware/Images/schematic.png)
+<div align="center">
+  <img src="Hardware/Images/schematic.png" width="700"/>
+</div>
 
 ### 📐 PCB Layout  
-![PCB Layout](Hardware/Images/pcb.png)
+<div align="center">
+  <img src="Hardware/Images/pcb.png" width="700"/>
+</div>
 
 ### 🧊 3D View  
-![3D View](Hardware/Images/3d_view.png)
+<div align="center">
+  <img src="Hardware/Images/3d_view.png" width="700"/>
+</div>
+
+---
+
+## 🧠 Design Highlights
+
+- Proper isolation between AC mains and low-voltage sections  
+- Dedicated power zoning for noise reduction  
+- Flyback protection for relay reliability  
+- USB interface for easy firmware flashing  
+
+---
+
+## ⚠ Safety Considerations
+
+- Isolation maintained between high-voltage and low-voltage domains  
+- Proper creepage and clearance followed  
+- Fuse and MOV used for protection  
+- Designed for educational and prototyping purposes only  
+
+---
+
+## 📊 Specifications
+
+| Parameter | Value |
+|----------|------|
+| Input Voltage | 230V AC |
+| Output Control | Relay-based switching |
+| MCU | ESP32-S3 |
+| Communication | Wi-Fi, BLE |
 
 ---
 
