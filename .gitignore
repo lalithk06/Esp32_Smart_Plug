@@ -1,10 +1,10 @@
 .history/
 
 # Ignore manufacturing files
-Manufacturing Files/
+Hardware/Manufacturing Files/
 
 # Ignore external libraries
-External-Libraries/
+Hardware/External-Libraries/
 
 # Ignore external 3D models
-External-3D-Models/
+Hardware/External-3D-Models/
