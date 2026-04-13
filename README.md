@@ -42,17 +42,17 @@ To design and develop a reliable hardware platform for a smart plug that demonst
 
 ### 🖼 Schematic Diagram  
 <div align="center">
-  <img src="Hardware/Images/schematic.png" width="700"/>
+  <img src="Hardware/Images/schematic.png">
 </div>
 
 ### 📐 PCB Layout  
 <div align="center">
-  <img src="Hardware/Images/pcb.png" width="700"/>
+  <img src="Hardware/Images/pcb.png">
 </div>
 
 ### 🧊 3D View  
 <div align="center">
-  <img src="Hardware/Images/3d_view.png" width="700"/>
+  <img src="Hardware/Images/3d_view.png">
 </div>
 
 ---
